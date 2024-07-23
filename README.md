@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GoogleTakeout
 Python scripts to analyze YouTube watch history data, utilizing NLP, LDA, and data visualization tools for insights.
 
@@ -43,3 +44,7 @@ Follow the order of script execution to avoid errors.
 
 # Acknowledgements
 Special thanks to all contributors and open-source libraries used in this project.
+=======
+# GoogleTakeout
+Python scripts to analyze YouTube watch history data, utilizing NLP, LDA, and data visualization tools for insights.
+>>>>>>> origin/main
