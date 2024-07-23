@@ -36,11 +36,11 @@ def parse_html(html_content):
         channel_url = channel_element['href'] if channel_element else 'No URL'
         date_time_raw = date_time_element.contents[-1].strip() if date_time_element else 'No date_time'
 
-        # Remove unwanted characters and prefix
+        #remove unwanted characters and prefixes
         date_time_raw = date_time_raw.replace('Watched', '').strip()
         date_time_str = date_time_raw.rsplit(' ', 1)[0]
 
-        # Parse the date and time
+        #parse the date and time
         try:
             date_time_obj = datetime.strptime(date_time_str, '%b %d, %Y, %I:%M:%S %p')
             date = date_time_obj.strftime('%d-%b-%Y')
